@@ -18,18 +18,17 @@ The insurance industry faces significant challenges, including fraud detection, 
 The dataset used in this project is sourced from Kaggle. It includes various features related to insurance claims, such as customer demographics, claim details, and incident characteristics.
 
 ## Methodology
-Data Cleaning: Replaced missing values represented by '?' with NaN. Filled missing categorical variables with the mode.
-Feature Selection: Dropped unnecessary columns for prediction. Conducted correlation analysis and removed highly correlated features.
-Feature Scaling: Standardized numerical features using standardscalar scaling.
-Data Visualization: Created bar charts, histograms, and boxplots to explore data distributions.
-Model Implementation:
-Implemented various machine learning algorithms, including:
-- K-Nearest Neighbors (KNN)
-- Support Vector Classifier (SVC)
-- Decision Tree
-- Random Forest
-- AdaBoost
-- XGBoost
+- Data Cleaning: Replaced missing values represented by '?' with NaN. Filled missing categorical variables with the mode.
+- Feature Selection: Dropped unnecessary columns for prediction. Conducted correlation analysis and removed highly correlated features.
+- Feature Scaling: Standardized numerical features using standardscalar scaling.
+- Data Visualization: Created bar charts, histograms, and boxplots to explore data distributions.
+- Model Implementation: Implemented various machine learning algorithms, including:
+  - K-Nearest Neighbors (KNN)
+  - Support Vector Classifier (SVC)
+  - Decision Tree
+  - Random Forest
+  - AdaBoost
+  - XGBoost
   
 ## Results:
 The Decision Tree, AdaBoost, and XGBoost models achieved the highest test accuracy of 81.2%.
