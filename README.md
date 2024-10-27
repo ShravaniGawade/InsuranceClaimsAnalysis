@@ -16,6 +16,7 @@ The insurance industry faces significant challenges, including fraud detection, 
 
 ## Dataset
 The dataset used in this project is sourced from Kaggle. It includes various features related to insurance claims, such as customer demographics, claim details, and incident characteristics.
+Target Variable - fraud_reported (Y/N)
 
 ## Methodology
 - Data Cleaning: Replaced missing values represented by '?' with NaN. Filled missing categorical variables with the mode.
